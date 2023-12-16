@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+
+    h1 {
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-family: 'Poppins-Bold', sans-serif;
+    }
+    
+    .user-icon {
+        font-size: 20px;
+        border: 1px solid #000;
+        border-radius: 30px;
+        padding: 15px;
+        background-color: #f0ecec;
+    }
+}
