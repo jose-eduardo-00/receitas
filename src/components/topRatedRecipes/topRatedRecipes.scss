@@ -1,0 +1,19 @@
+.top-rated-recipes-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+
+    h1 {
+        margin-bottom: 30px;
+        font-family: "Poppins-Bold";
+        font-size: 30px;
+    }
+
+    .recipes-list {
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}

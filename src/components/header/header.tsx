@@ -8,7 +8,9 @@ const Header = () => {
     return (
         <header className='header'>
             <section className='header-section'>
-                <h1>Receitas Criativas</h1>
+                <Link to={'/'}>
+                    <h1>Receitas Criativas</h1>
+                </Link>
                 <div className='search'>
                     <input type="search" name="search" />
                     <button><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
