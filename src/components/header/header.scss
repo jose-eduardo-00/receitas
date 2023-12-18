@@ -1,20 +1,59 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 15vh;
+    .header-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 15vh;
 
-    h1 {
-        font-size: 50px;
-        letter-spacing: 2px;
-        font-family: 'Poppins-Bold', sans-serif;
+        h1 {
+            font-size: 40px;
+            letter-spacing: 2px;
+            font-family: 'Poppins-Bold', sans-serif;
+        }
+
+        .search {
+            width: 50%;
+            display: flex;
+            align-items: center;
+
+            input {
+                width: 60%;
+                padding: 14px;
+                border: 1px solid #000;
+                border-right-color: transparent;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+            }
+
+            button {
+                background-color: aquamarine;
+                font-size: 22px;
+                color: #fff;
+                padding: 7.5px 24px;
+                border: 1px solid #000;
+                border-left-color: transparent;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                cursor: pointer;
+            }
+        }
+
+        .user-icon {
+            font-size: 20px;
+            border: 1px solid #000;
+            border-radius: 30px;
+            padding: 15px;
+            background-color: #f0ecec;
+        }
     }
-    
-    .user-icon {
-        font-size: 20px;
-        border: 1px solid #000;
-        border-radius: 30px;
-        padding: 15px;
-        background-color: #f0ecec;
+
+    .header-category {
+        border: 1px solid #808080;
+        padding: 20px;
+
+        .category-list {
+            display: flex;
+            justify-content: space-around;
+        }
     }
 }
